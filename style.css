@@ -58,18 +58,90 @@ p {
 
 .container-functions{
     display: flex;
-    width: 30vw;
+    align-items: center;
+    margin-left: 1.45vw;
+    width: 28.7vw;
     height: 10vh;
-    background-color: lavender;
+}
+
+.products-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    width: 7.7vw;
+    height: 3.7vh;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    width: 5vw;
+    height: 3.7vh;
+    margin-left: 1.45vw;
+}
+
+.support-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    width: 6.5vw;
+    height: 3.7vh;
+    margin-left: 1.45vw;
+}
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    width: 10vh;
+    height: 9vh;
+    margin-left: 1.45vw;
+}
+
+#cart {
+    width: 6.5vh;
+    height: 6.5vh;
 }
 
 .mainimg {
-    width: 100vw;
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    width: (100vw - 2vh);
+    background-color: #222D31;
     
 }
 
 #mainimg {
     width: 98vw;
     height: auto;
+}
+
+.container-mid {
+    width: (100vw - 2vh);
+    height: 100vh;
+    background-image: url(images/double-bubble-outline.png);
+}
+
+.products-text{
+    width: 16.4vw;
+    height: 7.4vh;
+    margin-left: 1.8vw;
+    border-bottom: gray;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-style:solid;
+    font-size: 3em;
+}
+
+#isinvisible {
+    color: rgba(255, 255, 0, 0);
+}
+
+.product-box {
+    width: ;
+    height: ;
+    border-style: solid;
 }
