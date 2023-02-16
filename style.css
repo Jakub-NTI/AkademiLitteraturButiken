@@ -120,7 +120,7 @@ p {
 
 .container-mid {
     width: (100vw - 2vh);
-    height: 100vh;
+    height: 175vh;
     background-image: url(images/double-bubble-outline.png);
 }
 
@@ -140,8 +140,27 @@ p {
     color: rgba(255, 255, 0, 0);
 }
 
+.product-container {
+    display: flex;
+    width: 89vw;
+    height: 155vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 1.3vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: rgba(95, 158, 160, 0.103);
+}
+
 .product-box {
-    width: ;
-    height: ;
+    display: flex;
+    margin-bottom: 1.3vw;
+    width: 28vw;
+    height: 28vh;
     border-style: solid;
+}
+
+.productimage-box {
+    
 }
