@@ -44,9 +44,12 @@
     color: #C92727;
 }
 
+#isbold {
+    font-weight: bold;
+}
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
 }
 
 h2 {
@@ -71,28 +74,40 @@ h2 {
 
 .products-button {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.4em;
     width: 7.7vw;
     height: 3.7vh;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 1vh;
 }
 
 .about-button {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.4em;
     width: 5vw;
     height: 3.7vh;
     margin-left: 1.45vw;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 1vh;
 }
 
 .support-button {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.4em;
     width: 6.5vw;
     height: 3.7vh;
     margin-left: 1.45vw;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 1vh;
 }
 
 .cart-button {
@@ -101,8 +116,10 @@ h2 {
     justify-content: center;
     align-self: flex-start;
     width: 10vh;
-    height: 9vh;
+    height: 10vh;
     margin-left: 1.45vw;
+    border: none;
+    background-color: whitesmoke;
 }
 
 #cart {
@@ -115,7 +132,6 @@ h2 {
     justify-content: space-between;
     width: (100vw - 2vh);
     background-color: #222D31;
-    
 }
 
 #mainimg {
@@ -125,7 +141,7 @@ h2 {
 
 .container-mid {
     width: (100vw - 2vh);
-    height: 175vh;
+    height: 150vh;
     background-image: url(images/double-bubble-outline.png);
 }
 
@@ -148,14 +164,13 @@ h2 {
 .product-container {
     display: flex;
     width: 89vw;
-    height: 155vh;
+    height: 130vh;
     margin-left: 4vw;
     margin-right: 4vw;
     margin-top: 1.3vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-color: rgba(95, 158, 160, 0.103);
 }
 
 .product-box {
@@ -181,3 +196,8 @@ h2 {
     height: 12vw;
 }
 
+.container-bot {
+    width: (100vw - 2vh);
+    height: 10vh;
+    background-color: white;
+}
