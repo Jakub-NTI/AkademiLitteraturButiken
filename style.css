@@ -129,22 +129,108 @@ h2 {
     height: 10vh;
     margin-left: 1.45vw;
     transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 button {
     background-color: white;
     border: none;
     border-radius: 1vh;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: gainsboro;
 }
 
-#cart {
+#cartimg {
     width: 6.5vh;
     height: 6.5vh;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    min-height: 100vh;
+    background: white;
+    box-shadow: -2px 0 4px rgb(49, 49, 49);
+}
+
+.cart > * {
+    margin: 1vw;
+}
+
+.cart > h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cart-remove {
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    margin: -1vw;
+    margin-bottom: 1vw;
+}
+
+.buy-button {
+    display: flex;
+    margin: 1.5em auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: whitesmoke;
+}
+
+#cart-close {
+    width: 50px;
+    height: auto;
+    margin-top: -1vw;
+    margin-left: 0vw;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.cart-box > .img-in-cart{
+    width: 5.2vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5em;
+}
+
+.cart-product-title {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.cart-quantity {
+    border: 1px solid;
+    width: 2.4em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5em;
+    border-top: 1px solid;
+}
+
+.total-price {
+    margin-left: 0.5em;
 }
 
 .mainimg {
@@ -201,6 +287,12 @@ button:hover {
     height: 28vh;
     border-style: solid;
     background-color: white;
+}
+
+.product-box > img:hover {
+    margin: 0.5vw;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 #productimage {

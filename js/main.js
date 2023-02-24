@@ -1,2 +1,2 @@
 //Shopping Cart
-//let cartIcon = document.querySelector("#cart")
+//let cartIcon = document.querySelector("#")

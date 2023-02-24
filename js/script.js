@@ -1,4 +1,4 @@
-//Searchbar
+// Searchbar
 const searchInput = document.querySelector("[data-search]")
 
 let books = [
@@ -23,5 +23,5 @@ searchInput.addEventListener("input", (e) => {
         element.classList.toggle("hide", !isVisible)
     })
 })
- //Ska få böcker som inte innehåller input att få "hide"-klassen
- //Men jag vet inte hur Java Script fungerar
+ // Ska få böcker som inte innehåller input att få "hide"-klassen
+ // Men jag vet inte hur Java Script fungerar

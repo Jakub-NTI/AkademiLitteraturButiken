@@ -12,9 +12,9 @@
 
 
 <body>
-    <!--Top Section-->
+    <!-- Top Section -->
     <div class="container-top">
-        <!--Logo-->
+        <!-- Logo -->
         <div class="container-logo">
             <div class="container-logoimage">
                 <img id="logo" src="images/ALB_Logo.jpg" alt="">
@@ -29,9 +29,9 @@
             <a>UTIKEN</a>
         </div>
         </div>
-        <!--Searchbar-->
+        <!-- Searchbar -->
         <input type="search" class="searchbar" data-search>
-        <!--Product, About, Cart buttons-->
+        <!-- Product, About, Cart buttons -->
         <div class="container-functions">
             <button class="products-button">
                 <a href="#products">PRODUCTS</a>
@@ -43,17 +43,43 @@
                 <a href="">SUPPORT</a>
             </button>
             <button class="cart-button" id="cart-button">
-                <img id="cart" src="images/Cart.png" alt="">
+                <img id="cartimg" src="images/Cart.png" alt="">
             </button>
+            <!-- Cart -->
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+
+                    <div class="cart-box">
+                        <img class="img-in-cart" src="images/BookG.png" alt="">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Svart Bok</div>
+                            <div class="cart-price" id="isbold">$20</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <!-- Remove from Cart -->
+                        <img class="cart-remove" src="images/Trash.png" alt="">
+                    </div>    
+                </div>
+                <!-- Total $ -->
+                <div class="total">
+                    <div id="isbold">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Button -->
+                <button type="button" class="buy-button" id="isbold">Buy Now</button>
+                <!-- Close Button -->
+                <img id="cart-close" src="images/X.png" alt="">
+            </div>
         </div>
     </div>
-    <!--Central image-->
+    <!-- Central image -->
     <div class="mainimg">
         <div></div>
         <img id="mainimg" src="images/DaBook.jpg" alt="">
         <div></div>
     </div>
-    <!--Product section header & product section-->
+    <!-- Product section header & product section -->
     <div class="container-mid">
         <p id="isinvisible">|</p>
         <div class="products-text" id="products">
@@ -158,7 +184,7 @@
                 </div>
             </div>
     </div>
-    <!--Bottom section-->
+    <!-- Bottom section -->
     <div class="container-bot">
         <button id="bottomtext">
             <a href="">About Us</a>
