@@ -152,11 +152,16 @@ button:hover {
     flex-direction: column;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 20vw;
     min-height: 100vh;
     background: white;
     box-shadow: -2px 0 4px rgb(49, 49, 49);
+    transition: 0.3s;
+}
+
+.cart.active {
+    right: 0;
 }
 
 .cart > * {
@@ -185,10 +190,13 @@ button:hover {
 }
 
 #cart-close {
+    position: fixed;
     width: 50px;
     height: auto;
     margin-top: -1vw;
     margin-left: 0vw;
+    top: 1em;
+    cursor: pointer;
 }
 
 .cart-box {
@@ -295,7 +303,7 @@ button:hover {
     cursor: pointer;
 }
 
-#productimage {
+.productimage {
     width: auto;
     height: 12vw;
 }
