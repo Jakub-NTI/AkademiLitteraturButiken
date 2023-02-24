@@ -48,8 +48,10 @@
     font-weight: bold;
 }
 
-p {
+a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
 }
 
 h2 {
@@ -57,14 +59,22 @@ h2 {
     font-weight: bold;
 }
 
-.searchbarplaceholder{
+.searchbar {
+    display: flex;
+    align-items: center;
     width: 50vw;
     height: 5.6vh;
     border-radius: 5.6vh;
-    background-color: lavender;
+    border-style: solid;
+    border-color: gray;
+    font-size: 1em;
 }
 
-.container-functions{
+.hide {
+    display: none;
+}
+
+.container-functions {
     display: flex;
     align-items: center;
     margin-left: 1.45vw;
@@ -79,9 +89,7 @@ h2 {
     font-size: 1.4em;
     width: 7.7vw;
     height: 3.7vh;
-    border: none;
-    background-color: whitesmoke;
-    border-radius: 1vh;
+    transition-duration: 0.4s;
 }
 
 .about-button {
@@ -92,9 +100,7 @@ h2 {
     width: 5vw;
     height: 3.7vh;
     margin-left: 1.45vw;
-    border: none;
-    background-color: whitesmoke;
-    border-radius: 1vh;
+    transition-duration: 0.4s;
 }
 
 .support-button {
@@ -105,9 +111,7 @@ h2 {
     width: 6.5vw;
     height: 3.7vh;
     margin-left: 1.45vw;
-    border: none;
-    background-color: whitesmoke;
-    border-radius: 1vh;
+    transition-duration: 0.4s;
 }
 
 .cart-button {
@@ -118,8 +122,17 @@ h2 {
     width: 10vh;
     height: 10vh;
     margin-left: 1.45vw;
+    transition-duration: 0.4s;
+}
+
+button {
+    background-color: white;
     border: none;
-    background-color: whitesmoke;
+    border-radius: 1vh;
+}
+
+button:hover {
+    background-color: gainsboro;
 }
 
 #cart {
@@ -196,7 +209,13 @@ h2 {
     height: 12vw;
 }
 
+#bottomtext {
+    margin-left: 1.3vw;
+}
+
 .container-bot {
+    display: flex;
+    align-items: center;
     width: (100vw - 2vh);
     height: 10vh;
     background-color: white;
