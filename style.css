@@ -332,3 +332,24 @@ button:hover {
     height: 10vh;
     background-color: white;
 }
+
+/* Abous Us */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: (100vw - 2vh);
+    height: 79.4vh;
+    background-image: url(images/double-bubble-outline.png);
+}
+
+.about-text-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2.5vw;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
