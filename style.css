@@ -2,46 +2,32 @@
     margin: 0px;
 }
 
-.container-top {
-    display: flex;
-    align-items: center;
+.background-top {
     width: (100vw - 2vh);
     height: 10vh;
     border-style: solid;
+    border-color: #222D31;
+    background-color: #222D31;
+}
+
+.container-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98.875vw;
+    height: 10vh;
+    border-style: solid;
     border-color: dimgray;
+    background-color: white;
+    position: fixed;
 }
 
 .container-logo {
     display: flex;
-    flex-direction: column;
+    align-self: center;
     margin-left: 2.4vw;
-    margin-bottom: 1vh;
-    width: 17.6vw;
-    height: 9vh;
-}
-
-.container-logoimage {
-    display: flex;
-    align-content: flex-end;
-    width: 13vw;
-    height: 6.5vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1.65em;
-}
-
-.logotext {
-    display: flex;
-    flex-direction: row;
-}
-
-#logo {
-    width: 6.6vw;
-    height: 6.6vh;
-}
-
-#isred {
-    color: #C92727;
+    margin-right: 0%;
+    height: 4.5vw;
 }
 
 #isbold {
@@ -65,17 +51,6 @@ h2 {
     font-weight: bold;
 }
 
-.searchbar {
-    display: flex;
-    align-items: center;
-    width: 50vw;
-    height: 5.6vh;
-    border-radius: 5.6vh;
-    border-style: solid;
-    border-color: gray;
-    font-size: 1em;
-}
-
 .hide {
     display: none;
 }
@@ -83,8 +58,9 @@ h2 {
 .container-functions {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-left: 1.45vw;
-    width: 28.7vw;
+    width: 343px;
     height: 10vh;
 }
 
@@ -92,8 +68,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
-    width: 7.7vw;
+    font-size: 0.8rem;
+    width: 27.5%;
     height: 3.7vh;
     transition-duration: 0.4s;
 }
@@ -102,10 +78,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
-    width: 5vw;
+    font-size: 0.8rem;
+    width: 21%;
     height: 3.7vh;
-    margin-left: 1.45vw;
+    margin-left: 1vh;
     transition-duration: 0.4s;
 }
 
@@ -113,10 +89,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
-    width: 6.5vw;
+    font-size: 0.8rem;
+    width: 22%;
     height: 3.7vh;
-    margin-left: 1.45vw;
+    margin-left: 1vh;
     transition-duration: 0.4s;
 }
 
@@ -127,7 +103,7 @@ h2 {
     align-self: flex-start;
     width: 10vh;
     height: 10vh;
-    margin-left: 1.45vw;
+    margin-left: 1vh;
     transition-duration: 0.4s;
 }
 
@@ -153,7 +129,7 @@ button:hover {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 20vw;
+    width: 340px;
     min-height: 100vh;
     background: white;
     box-shadow: -2px 0 4px rgb(49, 49, 49);
@@ -170,7 +146,7 @@ button:hover {
 
 .cart > h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .cart-remove {
@@ -183,7 +159,7 @@ button:hover {
 
 .buy-button {
     display: flex;
-    margin: 1.5em auto 0 auto;
+    margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
     border: none;
     background: whitesmoke;
@@ -195,7 +171,7 @@ button:hover {
     height: auto;
     margin-top: -1vw;
     margin-left: 0vw;
-    top: 1em;
+    top: 1rem;
     cursor: pointer;
 }
 
@@ -203,42 +179,42 @@ button:hover {
     display: grid;
     grid-template-columns: 32% 50% 18%;
     align-items: center;
-    gap: 1em;
-    margin-top: 1em;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .cart-box > .img-in-cart{
-    width: 5.2vw;
+    width: 90px;
     height: auto;
     object-fit: contain;
 }
 
 .detail-box {
     display: grid;
-    row-gap: 0.5em;
+    row-gap: 0.5rem;
 }
 
 .cart-product-title {
-    font-size: 1em;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
 .cart-quantity {
     border: 1px solid;
-    width: 2.4em;
+    width: 2.4rem;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .total {
     display: flex;
     justify-content: flex-end;
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
     border-top: 1px solid;
 }
 
 .total-price {
-    margin-left: 0.5em;
+    margin-left: 0.5rem;
 }
 
 .mainimg {
@@ -255,20 +231,20 @@ button:hover {
 
 .container-mid {
     width: (100vw - 2vh);
-    height: 150vh;
+    height: auto;
     background-image: url(images/double-bubble-outline.png);
 }
 
 .products-text{
-    width: 16.4vw;
-    height: 7.4vh;
+    width: 17rem;
+    height: auto;
     margin-left: 1.8vw;
     border-bottom: gray;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
     border-style:solid;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 #isinvisible {
@@ -278,7 +254,7 @@ button:hover {
 .product-container {
     display: flex;
     width: 89vw;
-    height: 130vh;
+    height: auto;
     margin-left: 4vw;
     margin-right: 4vw;
     margin-top: 1.3vw;
@@ -290,9 +266,10 @@ button:hover {
 .product-box {
     display: flex;
     align-items: center;
-    margin-bottom: 1.3vw;
-    width: 28vw;
-    height: 28vh;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 360px;
+    height: 200px;
     border-style: solid;
     background-color: white;
 }
@@ -305,15 +282,15 @@ button:hover {
 
 .productimage {
     width: auto;
-    height: 12vw;
+    height: 180px;
 }
 
 .producttext-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15vw;
-    height: 12vw;
+    width: 230px;
+    height: 180px;
 }
 
 .producttext-box > a{
@@ -330,10 +307,21 @@ button:hover {
     align-items: center;
     width: (100vw - 2vh);
     height: 10vh;
-    background-color: white;
 }
 
 /* Abous Us */
+.container-top2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99.7%;
+    height: 10vh;
+    border-style: solid;
+    border-color: dimgray;
+    background-color: white;
+    position: fixed;
+}
+
 .about-container {
     display: flex;
     align-items: center;
@@ -347,9 +335,8 @@ button:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    flex-wrap: wrap;
     margin: 2.5vw;
-    width: 100%;
+    width: 95vw;
     height: 90%;
     background-color: white;
 }
