@@ -235,7 +235,7 @@ button:hover {
     background-image: url(images/double-bubble-outline.png);
 }
 
-.products-text{
+.products-text {
     width: 17rem;
     height: auto;
     margin-left: 1.8vw;
@@ -307,6 +307,7 @@ button:hover {
     align-items: center;
     width: (100vw - 2vh);
     height: 10vh;
+    background: white;
 }
 
 /* Abous Us */
@@ -327,16 +328,24 @@ button:hover {
     align-items: center;
     justify-content: center;
     width: (100vw - 2vh);
-    height: 79.4vh;
+    min-height: 79.3vh;
     background-image: url(images/double-bubble-outline.png);
 }
 
 .about-text-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
-    margin: 2.5vw;
+    margin-top: 25px;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    margin-bottom: 25px;
     width: 95vw;
-    height: 90%;
+    min-height: 72.5vh;
     background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
